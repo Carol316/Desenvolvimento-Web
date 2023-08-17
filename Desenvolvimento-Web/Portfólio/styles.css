@@ -1,0 +1,111 @@
+/* Reset de estilos básicos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo do body */
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 1.6;
+    background-color: #8499B1;
+    color: #333;
+}
+
+/* Estilo do header */
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+}
+
+header img {
+    max-width: 200px;
+    height: auto;
+}
+
+/* Estilo das seções */
+section {
+    padding: 20px;
+    background-color: #fff;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo das listas */
+ul {
+    list-style: none;
+    padding-left: 20px;
+}
+
+/* Estilo dos links */
+a {
+    text-decoration: none;
+    color: #69a1dd;
+}
+
+/* Estilo do footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+}
+
+/* Estilo sobre */
+.sobre {
+    padding: 10px;
+    background-color: #EDB6A3;
+    border: 1px solid #2b2929;
+    border-radius: 5px;
+}
+
+/* Estilo academico */
+.academico {
+    padding: 10px;
+    background-color: #EDB6A3;
+    border: 1px solid #2b2929;
+    border-radius: 5px;
+}
+
+/* Estilo das skills */
+.skills {
+    padding: 10px;
+    background-color: #EDB6A3;
+    border: 1px solid #2b2929;
+    border-radius: 5px;
+}
+
+/* Estilo dos projetos */
+.projetos {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: #EDB6A3;
+}
+
+.projeto {
+    padding: 10px;
+    background-color: #EDB6A3;
+    border: 1px solid #2b2929;
+    border-radius: 5px;
+}
+
+.projeto h3 {
+    margin-bottom: 5px;
+}
+
+/* Estilo responsivo para telas menores */
+@media screen and (max-width: 768px) {
+    header h1 {
+        font-size: 24px;
+    }
+
+    section {
+        margin: 10px;
+    }
+}
+

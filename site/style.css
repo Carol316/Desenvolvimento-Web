@@ -130,6 +130,10 @@ footer li {
 
 }
 
+.wrapperFaq p:hover{
+    background-color: rgb(209, 209, 209);
+}
+
 .wrapperFaq {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -138,5 +142,3 @@ footer li {
     margin: 50px 300px;
     
 }
-
-.wrapperFaq p {}
